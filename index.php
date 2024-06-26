@@ -1,0 +1,293 @@
+<?php
+if ($_SERVER["SERVER_PORT"] != 443) {
+    header("Location: https://www.dooremolen.com/", true, 301);
+    exit;
+}
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <title>Dooremolen | Product Owner & People Coach</title>
+        <meta name="description" content="Welcome to my online portfolio site. I specialize in product development and team leadership as a Product Owner and People Coach. Explore my portfolio to learn more.">
+        <meta name="keywords" content="Product Owner, People Coach, Product Development, Team Leadership">
+        <meta name="keywords" content="Product Owner, People Coach, Product Development, Agile, Scrum, Kanban, Lean, Team Leadership, Product Management">
+
+        <meta name="author" content="Falco van Dooremolen" />
+
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="/assets/fontawesome/js/all.js"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Falco van Dooremolen</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Profile" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certs">Certifications</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Falco
+                        <span class="text-secondary">van Dooremolen</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Current: Product Owner + People Coach @<a href="https://vismaverzuim.com/" rel="noreferrer" target="_blank">Visma Verzuim</a>
+                    </div>
+                    <p class="lead mb-5">
+                        As a Product Owner and People Coach, I specialize in product development and team leadership. 
+                        My focus is on building and guiding high-performing teams towards success. 
+                        I prioritize identifying solutions that meet both business and user needs, while ensuring a positive work environment for team members.
+                    </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/falco-van-dooremolen/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 text-primary">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Product Owner + People Coach</h3>
+                            <div class="subheading mb-3">Visma Verzuim B.V.</div>
+                            <p>
+                                As a Product Owner and People Coach at Visma Verzuim, my role involves managing and optimizing the development of digital absence management solutions 
+                                while also providing leadership and support to a team of developers. 
+                                I work closely with stakeholders, customers, and the development team to identify business needs and translate them into product requirements that address 
+                                the unique challenges of absence management.
+                                Additionally, I serve as a coach and mentor to team members, helping them grow and develop both personally and professionally. <br />
+                                My focus on both product development and team management ensures that Visma Verzuim remains a leader in absence management solutions 
+                                while maintaining a positive and productive work environment.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2023 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Agile Coach</h3>
+                            <div class="subheading mb-3">Visma Verzuim B.V.</div>
+                            <p>
+                                As an Agile Coach at Visma Verzuim, my role involves providing guidance and support to development teams, 
+                                facilitating Agile methodologies, and helping teams adapt to change. <br />
+                                I work closely with product owners and team members to ensure that Agile principles and practices are implemented effectively and that 
+                                project goals are achieved efficiently. 
+                                I help identify areas for improvement and provide training and coaching to team members to help them grow.
+                                By promoting collaboration, communication, and continuous improvement, I help Visma Verzuim maintain its position as a leader in the absence management market.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2021 - January 2023</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Scrum Master</h3>
+                            <div class="subheading mb-3">Visma Verzuim B.V.</div>
+                            <p>
+                                As a Scrum Master at Visma Verzuim, my role involves leading and supporting Agile development teams in the implementation of 
+                                Scrum methodologies. I facilitate daily stand-up meetings, sprint planning sessions, and retrospective meetings, 
+                                ensuring that team members are aligned and focused on project goals. 
+                                I work closely with product owners to prioritize backlog items, identify and remove obstacles that may hinder team progress, 
+                                and foster a culture of continuous improvement. 
+                                By promoting transparency, collaboration, and teamwork, I help ensure that Visma Verzuim remains a leader in the absence management market
+                                while maintaining a productive and positive work environment for all team members.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2017 - October 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Engineer</h3>
+                            <div class="subheading mb-3">Visma Verzuim B.V.</div>
+                            <p>
+                                As a Software Engineer at Visma Verzuim, my role involves developing and implementing high-quality software solutions that meet the needs 
+                                of our customers. 
+                                I work closely with other team members to understand business requirements, design and develop software solutions. 
+                                I am also responsible for testing and debugging software to ensure that it meets functional and performance requirements. 
+                                By staying up-to-date with the latest technologies and programming languages, I help Visma Verzuim maintain its position as a leader 
+                                in the absence management market.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2015 - March 2017</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Developer</h3>
+                            <div class="subheading mb-3">MailStreet B.V.</div>
+                            <p>
+                                As a Developer at MailStreet, my role involves designing, developing, and implementing software solutions that meet the needs of our clients. 
+                                I work closely with project managers, stakeholders, and other team members to understand business requirements, translate them into 
+                                technical specifications, and deliver functional and performant code. 
+                                I am responsible for testing and debugging software to ensure that it meets quality standards and performance requirements. 
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2010 - September 2015</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 text-primary">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">IT Beheer</h3>
+                            <div class="subheading mb-3">Deltion College</div>
+                            <div>
+                                IT Beheer is a study program offered at Deltion College that focuses on the management and maintenance of information technology systems. 
+                                Students in this program learn about various IT infrastructure and support systems, as well as best practices for managing and troubleshooting them. 
+                                The curriculum also covers topics such as project management, IT service management, and IT security. 
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2007 - 2009</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">ICT Medewerker</h3>
+                            <div class="subheading mb-3">Deltion College</div>
+                            <div>
+                                ICT Medewerker is a study program offered at Deltion College that focuses on the technical and practical aspects of 
+                                information and communication technology. 
+                                The program prepares students for a career as an ICT professional, providing them with the skills and knowledge needed to 
+                                support and maintain IT systems and networks. The curriculum covers a wide range of topics including hardware and software, 
+                                network infrastructure, programming and scripting, IT security and troubleshooting. 
+                                The program also includes practical training, providing students with hands-on experience in real-world scenarios.
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2005 - 2007</span></div>
+                    </div>
+                </div>
+
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 text-primary">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5" title="HTML5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt" title="CSS3"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square" title="JavaScript"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-php" title="PHP"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java" title="Java"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python" title="Python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-docker" title="Docker"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-atlassian" title="Atlassian Suite"></i></li>
+
+                    </ul>
+                    <div class="subheading mb-3">Agile Experience</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-success"></i></span>
+                            Implementing Scrum
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-success"></i></span>
+                            Implementing Kanban
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-success"></i></span>
+                            Implementing Scaled Agile
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-success"></i></span>
+                            Being successfull by successfull teams
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 text-primary">Interests</h2>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Artificial Intelligence</h3>
+                            <div class="subheading mb-3">Fascinated by the potential of A.I., especially with technologies like GPT</div>
+                            <p>
+                                I'm always looking for ways to stay up-to-date with the latest developments in A.I. and explore the possibilities it presents for various industries.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Product Development</h3>
+                            <div class="subheading mb-3">Passionate about developing and launching products</div>
+                            <p>
+                                I enjoy the process of identifying customer needs and designing solutions that meet those needs. I am constantly looking for new and innovative ways to improve my product development skills.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Innovations in Technology</h3>
+                            <div class="subheading mb-3">Curious about new and emerging technologies</div>
+                            <p>
+                                I'm always on the lookout for new and emerging technologies, from blockchain to virtual reality. I'm excited to see how these innovations are transforming various industries and creating new opportunities.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="certs">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 text-primary">Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-award text-primary"></i></span>
+                            Proffesional Scrum Master I - <a href="https://www.scrum.org/user/239641" target="_blank" rel="noreferrer">Scrum.org&reg;</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-award text-primary"></i></span>
+                            Java7
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
