@@ -1,302 +1,372 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<html lang="nl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falco van Dooremolen - Ervaren Product Owner & Agile Coach</title>
 
-        <!-- HTML Meta Tags -->
-        <title>Falco van Dooremolen | Product Owner & People Coach</title>
-        <meta name="description" content="Welcome to my online portfolio site. I specialize in product development and team leadership as a Product Owner and People Coach. Explore my portfolio to learn more.">
+    <!-- SEO & Metadata -->
+    <meta name="description" content="Falco van Dooremolen is een ervaren Product Owner en Agile Specialist, met expertise in Scrum, software engineering en het maximaliseren van klantwaarde bij Visma Verzuim.">
+    <meta name="keywords" content="Product Owner, Agile Coach, Scrum Master, Visma, Falco van Dooremolen, Software Engineer, Raalte, Verzuim, Gemini, NotebookLM, AI, Generatieve AI">
 
-        <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="https://dooremolen.com">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Falco van Dooremolen | Product Owner &amp; People Coach">
-        <meta property="og:description" content="Welcome to my online portfolio site. I specialize in product development and team leadership as a Product Owner and People Coach. Explore my portfolio to learn more.">
-        <meta property="og:image" content="https://dooremolen.netlify.app/assets/img/og_image.png">
+    <!-- Open Graph / Facebook / LinkedIn Rich Snippets -->
+    <meta property="og:title" content="Falco van Dooremolen - Product Owner & Agile Specialist">
+    <meta property="og:description" content="Ervaren Product Owner bij Visma Verzuim met een sterke focus op het leveren van bedrijfswaarde en het coachen van high-performing ontwikkelteams.">
+    <meta property="og:image" content="https://dooremolen.netlify.app/assets/img/profile.jpg">
+    <meta property="og:url" content="https://dooremolen.com/">
+    <meta property="og:type" content="profile">
 
-        <!-- Twitter Meta Tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="dooremolen.com">
-        <meta property="twitter:url" content="https://dooremolen.com">
-        <meta name="twitter:title" content="Falco van Dooremolen | Product Owner & People Coach">
-        <meta name="twitter:description" content="Welcome to my online portfolio site. I specialize in product development and team leadership as a Product Owner and People Coach. Explore my portfolio to learn more.">
-        <meta name="twitter:image" content="https://dooremolen.netlify.app/assets/img/og_image.png">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@falcovd"> <!-- Indien Twitter/X account bestaat -->
+    <meta name="twitter:creator" content="@falcovd">
+    <meta name="twitter:title" content="Falco van Dooremolen - Product Owner">
+    <meta name="twitter:description" content="Ervaren Product Owner bij Visma Verzuim met een sterke focus op het leveren van bedrijfswaarde en het coachen van high-performing ontwikkelteams.">
+    <meta name="twitter:image" content="https://dooremolen.netlify.app/assets/img/profile.jpg">
 
-        <meta name="keywords" content="Product Owner, People Coach, Product Development, Agile, Scrum, Kanban, Lean, Team Leadership, Product Management">
+    <!-- Rich Snippets (JSON-LD Schema for professional profile) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Falco van Dooremolen",
+      "jobTitle": "Product Owner & Agile Specialist",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Visma Verzuim"
+      },
+      "url": "https://www.linkedin.com/in/falco-van-dooremolen/",
+      "alumniOf": "ROC Deltion College",
+      "image": "https://dooremolen.netlify.app/assets/img/profile.jpg",
+      "description": "Ervaren Product Owner en Agile Coach met een bewezen staat van dienst in het leiden van softwareontwikkelingsteams en het maximaliseren van productwaarde."
+    }
+    </script>
+    
+    <!-- Laad Tailwind CSS voor een moderne styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Gebruik het Inter-lettertype en stel een vloeiende scroll in */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7; /* Lichtgrijze achtergrond */
+        }
+        /* Style voor de navigatieknoppen */
+        .nav-link:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+        /* Custom card style voor werkervaring */
+        .experience-card {
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+        .experience-card:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+        /* Animatie voor de introductie sectie */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
 
-        <meta name="author" content="Falco van Dooremolen" />
-
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="/assets/fontawesome/js/all.js"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Falco van Dooremolen</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Profile" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certs">Certifications</a></li>
-                </ul>
+    <!-- Navigatiebalk -->
+    <nav class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <!-- Aangepast: Falco vD -> Falco van Dooremolen -->
+                    <a href="#intro" class="text-2xl font-bold text-indigo-600">Falco van Dooremolen</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="flex space-x-6">
+                        <a href="#ervaring" class="nav-link text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg p-2">Ervaring</a>
+                        <a href="#opleiding" class="nav-link text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg p-2">Opleidingen</a>
+                        <a href="#vaardigheden" class="nav-link text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg p-2">Skills</a>
+                        <a href="#contact" class="nav-link text-white bg-indigo-600 hover:bg-indigo-700 transition duration-300 px-4 py-2 rounded-full shadow-md">Contact</a>
+                    </div>
+                </div>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Falco
-                        <span class="text-secondary">van Dooremolen</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        Current: Product Owner + People Coach @<a href="https://vismaverzuim.com/" rel="noreferrer" target="_blank">Visma Verzuim</a>
-                    </div>
-                    <p class="lead mb-5">
-                        As a Product Owner and People Coach, I specialize in product development and team leadership. 
-                        My focus is on building and guiding high-performing teams towards success. 
-                        I prioritize identifying solutions that meet both business and user needs, while ensuring a positive work environment for team members.
-                    </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/falco-van-dooremolen/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 text-primary">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Product Owner + People Coach</h3>
-                            <div class="subheading mb-3">Visma Verzuim B.V.</div>
-                            <p>
-                                As a Product Owner and People Coach at Visma Verzuim, my role involves managing and optimizing the development of digital absence management solutions 
-                                while also providing leadership and support to a team of developers. 
-                                I work closely with stakeholders, customers, and the development team to identify business needs and translate them into product requirements that address 
-                                the unique challenges of absence management.
-                                Additionally, I serve as a coach and mentor to team members, helping them grow and develop both personally and professionally. <br />
-                                My focus on both product development and team management ensures that Visma Verzuim remains a leader in absence management solutions 
-                                while maintaining a positive and productive work environment.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2023 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Agile Coach</h3>
-                            <div class="subheading mb-3">Visma Verzuim B.V.</div>
-                            <p>
-                                As an Agile Coach at Visma Verzuim, my role involves providing guidance and support to development teams, 
-                                facilitating Agile methodologies, and helping teams adapt to change. <br />
-                                I work closely with product owners and team members to ensure that Agile principles and practices are implemented effectively and that 
-                                project goals are achieved efficiently. 
-                                I help identify areas for improvement and provide training and coaching to team members to help them grow.
-                                By promoting collaboration, communication, and continuous improvement, I help Visma Verzuim maintain its position as a leader in the absence management market.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2021 - January 2023</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Scrum Master</h3>
-                            <div class="subheading mb-3">Visma Verzuim B.V.</div>
-                            <p>
-                                As a Scrum Master at Visma Verzuim, my role involves leading and supporting Agile development teams in the implementation of 
-                                Scrum methodologies. I facilitate daily stand-up meetings, sprint planning sessions, and retrospective meetings, 
-                                ensuring that team members are aligned and focused on project goals. 
-                                I work closely with product owners to prioritize backlog items, identify and remove obstacles that may hinder team progress, 
-                                and foster a culture of continuous improvement. 
-                                By promoting transparency, collaboration, and teamwork, I help ensure that Visma Verzuim remains a leader in the absence management market
-                                while maintaining a productive and positive work environment for all team members.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2017 - October 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Engineer</h3>
-                            <div class="subheading mb-3">Visma Verzuim B.V.</div>
-                            <p>
-                                As a Software Engineer at Visma Verzuim, my role involves developing and implementing high-quality software solutions that meet the needs 
-                                of our customers. 
-                                I work closely with other team members to understand business requirements, design and develop software solutions. 
-                                I am also responsible for testing and debugging software to ensure that it meets functional and performance requirements. 
-                                By staying up-to-date with the latest technologies and programming languages, I help Visma Verzuim maintain its position as a leader 
-                                in the absence management market.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2015 - March 2017</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Developer</h3>
-                            <div class="subheading mb-3">MailStreet B.V.</div>
-                            <p>
-                                As a Developer at MailStreet, my role involves designing, developing, and implementing software solutions that meet the needs of our clients. 
-                                I work closely with project managers, stakeholders, and other team members to understand business requirements, translate them into 
-                                technical specifications, and deliver functional and performant code. 
-                                I am responsible for testing and debugging software to ensure that it meets quality standards and performance requirements. 
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2010 - September 2015</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 text-primary">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">IT Beheer</h3>
-                            <div class="subheading mb-3">Deltion College</div>
-                            <div>
-                                IT Beheer is a study program offered at Deltion College that focuses on the management and maintenance of information technology systems. 
-                                Students in this program learn about various IT infrastructure and support systems, as well as best practices for managing and troubleshooting them. 
-                                The curriculum also covers topics such as project management, IT service management, and IT security. 
-                            </div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2007 - 2009</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">ICT Medewerker</h3>
-                            <div class="subheading mb-3">Deltion College</div>
-                            <div>
-                                ICT Medewerker is a study program offered at Deltion College that focuses on the technical and practical aspects of 
-                                information and communication technology. 
-                                The program prepares students for a career as an ICT professional, providing them with the skills and knowledge needed to 
-                                support and maintain IT systems and networks. The curriculum covers a wide range of topics including hardware and software, 
-                                network infrastructure, programming and scripting, IT security and troubleshooting. 
-                                The program also includes practical training, providing students with hands-on experience in real-world scenarios.
-                            </div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2005 - 2007</span></div>
-                    </div>
-                </div>
-
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 text-primary">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5" title="HTML5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt" title="CSS3"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square" title="JavaScript"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-php" title="PHP"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-java" title="Java"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-python" title="Python"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-docker" title="Docker"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-atlassian" title="Atlassian Suite"></i></li>
-
-                    </ul>
-                    <div class="subheading mb-3">Agile Experience</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check text-success"></i></span>
-                            Implementing Scrum
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check text-success"></i></span>
-                            Implementing Kanban
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check text-success"></i></span>
-                            Implementing Scaled Agile
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check text-success"></i></span>
-                            Being successfull by successfull teams
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 text-primary">Interests</h2>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Artificial Intelligence</h3>
-                            <div class="subheading mb-3">Fascinated by the potential of A.I., especially with technologies like GPT</div>
-                            <p>
-                                I'm always looking for ways to stay up-to-date with the latest developments in A.I. and explore the possibilities it presents for various industries.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Product Development</h3>
-                            <div class="subheading mb-3">Passionate about developing and launching products</div>
-                            <p>
-                                I enjoy the process of identifying customer needs and designing solutions that meet those needs. I am constantly looking for new and innovative ways to improve my product development skills.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Innovations in Technology</h3>
-                            <div class="subheading mb-3">Curious about new and emerging technologies</div>
-                            <p>
-                                I'm always on the lookout for new and emerging technologies, from blockchain to virtual reality. I'm excited to see how these innovations are transforming various industries and creating new opportunities.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
-                    </div>
-
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="certs">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 text-primary">Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-award text-primary"></i></span>
-                            Proffesional Scrum Master I - <a href="https://www.scrum.org/user/239641" target="_blank" rel="noreferrer">Scrum.org&reg;</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-award text-primary"></i></span>
-                            Java7
-                        </li>
-
-                    </ul>
-                </div>
-            </section>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </nav>
+
+    <!-- Hoofdcontainer -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <!-- Introductie Sectie -->
+        <section id="intro" class="fade-in bg-white p-8 md:p-16 rounded-3xl shadow-xl mb-16 border-t-8 border-indigo-600">
+            <div class="flex flex-col md:flex-row items-center md:space-x-12">
+                <div class="flex-shrink-0 mb-8 md:mb-0">
+                    <img src="https://dooremolen.netlify.app/assets/img/profile.jpg" alt="Profielfoto Falco van Dooremolen, Product Owner"
+                         class="rounded-full w-44 h-44 object-cover border-4 border-indigo-200 shadow-lg">
+                </div>
+                <div>
+                    <span class="text-lg font-semibold text-indigo-600 uppercase tracking-wider">Product Owner / Agile Specialist</span>
+                    <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 mt-2 leading-tight">
+                        Falco van Dooremolen
+                    </h1>
+                    <p class="mt-4 text-xl text-gray-600 max-w-2xl">
+                        Ik ben een resultaatgerichte <strong>Product Owner</strong> die de complexiteit van de business vertaalt naar concrete, ontwikkelbare oplossingen. Met een diepe basis in <strong>Agile</strong>, <strong>Scrum</strong> en mijn eerdere ervaring als <strong>Software Engineer</strong>, focus ik me op het leveren van maximale klantwaarde en het realiseren van een optimale klantervaring bij Visma Verzuim.
+                    </p>
+                    <div class="mt-6 flex flex-wrap gap-4 items-center">
+                        <span class="text-sm font-medium bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Raalte</span>
+                        <span class="text-sm font-medium bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Moedertaal: Nederlands</span>
+                        <span class="text-sm font-medium bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Engels</span>
+                        <a href="https://www.linkedin.com/in/falco-van-dooremolen/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-800 transition duration-300" aria-label="LinkedIn profiel Falco van Dooremolen">
+                            <!-- LinkedIn Icon (Inline SVG) -->
+                            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM5 9h4v12H5zM7 2a2 2 0 110 4 2 2 0 010-4z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Werkervaring Sectie (Gegroepeerd) -->
+        <section id="ervaring" class="py-12">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-10 text-center">Werkervaring</h2>
+
+            <div class="relative border-l-4 border-indigo-200 ml-4 md:ml-10">
+
+                <!-- GRUPERING: VISMA VERZUIM -->
+                <h3 class="text-3xl font-bold text-gray-800 ml-8 md:ml-12 mb-6 mt-4">Visma Verzuim <span class="text-xl font-normal text-gray-500">(September 2015 - Heden)</span></h3>
+
+                <!-- Product Owner -->
+                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
+                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-indigo-600">Product Owner</h3>
+                        <span class="text-sm font-semibold text-gray-500">Januari 2023 - heden</span>
+                    </div>
+                    <p class="text-gray-600">
+                        Verantwoordelijk voor het beheren van de product backlog, het definiëren en prioriteren van functionaliteiten in nauwe samenwerking met stakeholders, en het waarborgen van maximale waarde voor klanten. Focus op effectieve samenwerking met ontwikkelteams.
+                    </p>
+                </article>
+
+                <!-- Agile Coach -->
+                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
+                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-indigo-600">Agile Coach</h3>
+                        <span class="text-sm font-semibold text-gray-500">Oktober 2021 - december 2022</span>
+                    </div>
+                    <p class="text-gray-600">
+                        Begeleiding van teams bij de invoering van Agile methodologieën (Scrum/Kanban). Faciliteren van events, verfijnen van processen en coaching om de samenwerking, communicatie en continue verbetering binnen de organisatie te verbeteren.
+                    </p>
+                </article>
+
+                <!-- Scrum Master -->
+                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
+                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-indigo-600">Scrum Master</h3>
+                        <span class="text-sm font-semibold text-gray-500">Juli 2017 - september 2021</span>
+                    </div>
+                    <p class="text-gray-600">
+                        Ondersteuning van ontwikkelteams in het Scrum-framework, focus op doelen, verwijderen van obstakels en samenwerken met Product Owners voor backlog-prioritering en -refinement.
+                    </p>
+                </article>
+
+                <!-- Software Engineer -->
+                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
+                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-indigo-600">Software Engineer</h3>
+                        <!-- Aangepast: tot juni 2016 -> tot juni 2017 -->
+                        <span class="text-sm font-semibold text-gray-500">September 2015 - juni 2017</span>
+                    </div>
+                    <p class="text-gray-600">
+                        Ontwerpen, ontwikkelen en onderhouden van softwareproducten. Creëren van schaalbare oplossingen, schrijven van onderhoudbare code en bijdragen aan code-reviews en debugging.
+                    </p>
+                </article>
+
+                <!-- GRUPERING: VDIA INTERNET APPLICATIONS -->
+                <h3 class="text-3xl font-bold text-gray-800 ml-8 md:ml-12 mb-6 mt-12 border-t pt-8 border-gray-200">vDia Internet Applications <span class="text-xl font-normal text-gray-500">(Januari 2012 - Heden)</span></h3>
+
+                <!-- Eigenaar vDia -->
+                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
+                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-indigo-600">Eigenaar</h3>
+                        <span class="text-sm font-semibold text-gray-500">Januari 2012 - Heden</span>
+                    </div>
+                    <p class="text-gray-600">
+                        Gespecialiseerd in het ontwikkelen van op maat gemaakte weboplossingen om bedrijven te helpen hun online aanwezigheid te optimaliseren. Opgericht met een eigen ontwikkeld Content Management Systeem (Huidige activiteiten zijn nihil).
+                    </p>
+                </article>
+
+
+                <!-- GRUPERING: MAILSTREET B.V. -->
+                <h3 class="text-3xl font-bold text-gray-800 ml-8 md:ml-12 mb-6 mt-12 border-t pt-8 border-gray-200">MailStreet B.V. <span class="text-xl font-normal text-gray-500">(Maart 2010 - Augustus 2015)</span></h3>
+
+                <!-- PHP Developer MailStreet -->
+                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
+                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-indigo-600">PHP Developer</h3>
+                        <span class="text-sm font-semibold text-gray-500">Maart 2010 - Augustus 2015</span>
+                    </div>
+                    <p class="text-gray-600">
+                        Ontwikkelen en onderhouden van web-2-print portalen voor 'Personal Printing on demand'. Beheren van websystemen en backend-systemen.
+                    </p>
+                </article>
+
+
+                <!-- GRUPERING: OVERIGE VROEGE ERVARING -->
+                <h3 class="text-3xl font-bold text-gray-800 ml-8 md:ml-12 mb-6 mt-12 border-t pt-8 border-gray-200">Overige ervaring <span class="text-xl font-normal text-gray-500">(2006 - 2010)</span></h3>
+
+                <!-- Freelancer (DoWebs Webcreations) -->
+                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
+                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-indigo-600">Freelancer (DoWebs Webcreations)</h3>
+                        <span class="text-sm font-semibold text-gray-500">September 2009 - December 2010</span>
+                    </div>
+                    <p class="text-gray-600">
+                        Freelance werkzaamheden gericht op webcreatie en het opzetten van websites voor klanten.
+                    </p>
+                </article>
+
+                <!-- Trainee Developer (WebProdie) -->
+                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
+                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-indigo-600">Trainee Developer (WebProdie)</h3>
+                        <span class="text-sm font-semibold text-gray-500">Augustus 2008 - Juli 2009</span>
+                    </div>
+                    <p class="text-gray-600">
+                        Ontwikkelingstraining en praktische ervaring in het programmeren van software en webapplicaties in een stage-omgeving.
+                    </p>
+                </article>
+
+                <!-- Technical Support (Salland Automatisering) -->
+                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
+                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-2xl font-bold text-indigo-600">Technical Support (Salland Automatisering)</h3>
+                        <span class="text-sm font-semibold text-gray-500">Juni 2006 - Augustus 2009</span>
+                    </div>
+                    <p class="text-gray-600">
+                        Bieden van technische ondersteuning en service aan zowel particuliere als zakelijke klanten, inclusief probleemoplossing en hardware/software installatie.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+        
+        <!-- Opleidingen & Certificaten Sectie (VOLGORDE OMGEKEERD) -->
+        <section id="opleiding" class="py-12 bg-white p-8 rounded-3xl shadow-xl mb-16">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-10 text-center">Opleidingen & Certificaten</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Opleidingen -->
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-indigo-600 border-b-2 border-indigo-100 pb-2">Opleidingen</h3>
+
+                    <div class="bg-indigo-50 p-4 rounded-xl shadow-inner">
+                        <p class="text-lg font-semibold text-gray-800">ICT Beheerder - MBO4</p>
+                        <p class="text-sm text-gray-600">ROC Deltion College - 2009</p>
+                    </div>
+
+                    <div class="bg-indigo-50 p-4 rounded-xl shadow-inner">
+                        <p class="text-lg font-semibold text-gray-800">Medewerker beheerder ICT - MBO3</p>
+                        <p class="text-sm text-gray-600">ROC Deltion College - 2008</p>
+                    </div>
+                </div>
+                
+                <!-- Certificaten -->
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-indigo-600 border-b-2 border-indigo-100 pb-2">Certificaten</h3>
+
+                    <div class="bg-indigo-50 p-4 rounded-xl shadow-inner">
+                        <p class="text-lg font-semibold text-gray-800">
+                            <!-- Link naar Scrum.org profiel behouden -->
+                            <a href="https://www.scrum.org/user/239641" target="_blank" rel="noopener noreferrer" class="hover:underline text-indigo-700">
+                                PSM I
+                            </a>
+                        </p>
+                        <p class="text-sm text-gray-600">Scrum.org - 2017</p>
+                    </div>
+
+                    <div class="bg-indigo-50 p-4 rounded-xl shadow-inner">
+                        <p class="text-lg font-semibold text-gray-800">Java 7</p>
+                        <p class="text-sm text-gray-600">Vijfhart IT-Opleidingen - 2015</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vaardigheden & Focusgebieden Sectie -->
+        <section id="vaardigheden" class="py-12 bg-white p-8 rounded-3xl shadow-xl mb-16">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-10 text-center">Vaardigheden & Focusgebieden</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Kerncompetenties -->
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-indigo-600 border-b-2 border-indigo-100 pb-2">Kerncompetenties (Hard/Soft Skills)</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Scrum Framework</span>
+                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Product Vision & Strategy</span>
+                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Stakeholder Management</span>
+                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Coaching & Facilitate</span>
+                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Software Development (PHP/Java/Python)</span>
+                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Datagedreven besluitvorming</span>
+                    </div>
+                </div>
+
+                <!-- Technologische Focusgebieden -->
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-indigo-600 border-b-2 border-indigo-100 pb-2">Technologische Focusgebieden</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full font-medium">Generatieve AI (Gemini & ChatGPT)</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full font-medium">NotebookLM (Research & Summarization)</span>
+                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Product Analytics</span>
+                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Cloud Platforms (Basis)</span>
+                    </div>
+                    <!-- Markdown tekst in de HTML aangepast naar standaard tekst -->
+                    <p class="text-sm text-gray-600 mt-2">
+                        Grote interesse in het toepassen van AI-tools, zoals Gemini en NotebookLM, voor efficiëntere productontdekking, analyse van complexe documentatie en snelle ideegeneratie.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Sectie -->
+        <section id="contact" class="py-12">
+            <div class="text-center bg-indigo-600 text-white p-10 rounded-3xl shadow-xl">
+                <h2 class="text-4xl font-extrabold mb-4">Neem Contact Op</h2>
+                <p class="text-xl mb-6 max-w-xl mx-auto">
+                    Bent u op zoek naar een ervaren Product Owner die waarde maximaliseert? Neem gerust contact op.
+                </p>
+
+                <div class="flex justify-center">
+                    <!-- Telefoonnummer verwijderd, alleen e-mailadres overgehouden -->
+                    <a href="mailto:falco@dooremolen.com" class="inline-flex items-center justify-center bg-white text-indigo-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-9 13h9a2 2 0 002-2V7a2 2 0 00-2-2H3a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        falco@dooremolen.com
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <!-- Aangepast: Gebouwd met Gemini Canvas -->
+            <p>&copy; 2025 Falco van Dooremolen. Gebouwd met Gemini Canvas.</p>
+        </div>
+    </footer>
+
+</body>
 </html>
