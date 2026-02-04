@@ -1,381 +1,472 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="nl" class="dark scroll-smooth">
 <head>
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="651fb423-8c2a-40c5-8aed-11c7d2d1e6fb" data-blockingmode="auto" type="text/javascript"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Falco van Dooremolen - Product Owner & Agile Coach</title>
+    <title>Falco van Dooremolen - Technical Product Owner & AI Implementation Partner</title>
 
-    <!-- SEO & Metadata -->
-    <meta name="description" content="Falco van Dooremolen is een ervaren Product Owner en Agile Specialist, met expertise in Scrum, software engineering en het maximaliseren van klantwaarde.">
-    <meta name="keywords" content="Product Owner, Agile Coach, Scrum Master, Falco van Dooremolen, Software Engineer, Raalte, Gemini, NotebookLM, AI, Generatieve AI">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Falco van Dooremolen - Technical Product Owner & AI Implementation Partner. Ik help organisaties AI-tools te adopteren en vertaal complexe technologie naar concrete productwaarde.">
+    <meta name="keywords" content="Technical Product Owner, AI Implementation, Product Owner, Agile Coach, Scrum Master, AI Adoption, Automation, Visma Verzuim, Falco van Dooremolen">
+    <meta name="author" content="Falco van Dooremolen">
+    <meta name="robots" content="index, follow">
 
-    <!-- Open Graph / Facebook / LinkedIn Rich Snippets -->
-    <meta property="og:title" content="Falco van Dooremolen - Product Owner & Agile Specialist">
-    <meta property="og:description" content="Ervaren Product Owner bij Visma Verzuim met een sterke focus op het leveren van bedrijfswaarde en het coachen van high-performing ontwikkelteams.">
-    <meta property="og:image" content="https://dooremolen.netlify.app/assets/img/profile.jpg">
-    <meta property="og:url" content="https://dooremolen.com/">
+    <!-- Open Graph / Facebook / LinkedIn -->
     <meta property="og:type" content="profile">
+    <meta property="og:title" content="Falco van Dooremolen - Technical Product Owner & AI Implementation Partner">
+    <meta property="og:description" content="Ik help organisaties AI-tools te adopteren en vertaal complexe technologie naar concrete productwaarde.">
+    <meta property="og:image" content="https://dooremolen.com/assets/img/profile.jpg">
+    <meta property="og:url" content="https://dooremolen.com/">
+    <meta property="og:site_name" content="Falco van Dooremolen">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@falcovd"> <!-- Indien Twitter/X account bestaat -->
-    <meta name="twitter:creator" content="@falcovd">
-    <meta name="twitter:title" content="Falco van Dooremolen - Product Owner">
-    <meta name="twitter:description" content="Ervaren Product Owner bij Visma Verzuim met een sterke focus op het leveren van bedrijfswaarde en het coachen van high-performing ontwikkelteams.">
-    <meta name="twitter:image" content="https://dooremolen.netlify.app/assets/img/profile.jpg">
+    <meta name="twitter:title" content="Falco van Dooremolen - Technical Product Owner & AI Implementation Partner">
+    <meta name="twitter:description" content="Ik help organisaties AI-tools te adopteren en vertaal complexe technologie naar concrete productwaarde.">
+    <meta name="twitter:image" content="https://dooremolen.com/assets/img/profile.jpg">
 
-    <!-- Rich Snippets (JSON-LD Schema for professional profile) -->
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://dooremolen.com/">
+
+    <!-- Tailwind CSS (local) -->
+    <script src="js/tailwind.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            bg: '#0a0a0a',
+                            card: '#1a1a1a',
+                            border: '#2a2a2a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+
+    <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Falco van Dooremolen",
-      "jobTitle": "Product Owner & Agile Specialist",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Visma Verzuim"
-      },
-      "url": "https://www.linkedin.com/in/falco-van-dooremolen/",
-      "alumniOf": "ROC Deltion College",
-      "image": "https://dooremolen.netlify.app/assets/img/profile.jpg",
-      "description": "Ervaren Product Owner en Agile Coach met een bewezen staat van dienst in het leiden van softwareontwikkelingsteams en het maximaliseren van productwaarde."
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Falco van Dooremolen",
+        "jobTitle": "Technical Product Owner & AI Implementation Partner",
+        "description": "Ik help organisaties AI-tools te adopteren en vertaal complexe technologie naar concrete productwaarde.",
+        "url": "https://dooremolen.com/",
+        "image": "https://dooremolen.com/assets/img/profile.jpg",
+        "sameAs": [
+            "https://www.linkedin.com/in/falco-van-dooremolen/"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Visma Verzuim"
+        },
+        "knowsAbout": [
+            "Product Management",
+            "AI Implementation",
+            "Agile Coaching",
+            "Scrum",
+            "Software Development"
+        ],
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Professional Scrum Master I",
+            "credentialCategory": "certification",
+            "recognizedBy": {
+                "@type": "Organization",
+                "name": "Scrum.org"
+            }
+        }
     }
     </script>
-    
-    <!-- Laad Tailwind CSS voor een moderne styling -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <style>
-        /* Gebruik het Inter-lettertype en stel een vloeiende scroll in */
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f7f7f7; /* Lichtgrijze achtergrond */
-        }
-        /* Style voor de navigatieknoppen */
-        .nav-link:hover {
-            transform: translateY(-2px);
-            opacity: 0.9;
-        }
-        /* Custom card style voor werkervaring */
-        .experience-card {
-            transition: all 0.3s ease-in-out;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-        }
-        .experience-card:hover {
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
-            transform: translateY(-5px);
-        }
-        /* Animatie voor de introductie sectie */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .fade-in {
-            animation: fadeIn 0.8s ease-out forwards;
-        }
-    </style>
 </head>
-<body class="text-gray-800">
+<body class="bg-dark-bg text-gray-100 min-h-screen">
 
-    <!-- Navigatiebalk -->
-    <nav class="sticky top-0 z-50 bg-white shadow-lg">
+    <!-- Header -->
+    <header id="header" class="sticky top-0 z-50 bg-dark-bg/80 backdrop-blur-md border-b border-dark-border">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <div class="flex-shrink-0">
-                    <!-- Aangepast: Falco vD -> Falco van Dooremolen -->
-                    <a href="#intro" class="text-2xl font-bold text-indigo-600">Falco van Dooremolen</a>
-                </div>
-                <div class="flex items-center space-x-4">
-                    <div class="flex space-x-6">
-                        <a href="#ervaring" class="nav-link text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg p-2">Ervaring</a>
-                        <a href="#opleiding" class="nav-link text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg p-2">Opleidingen</a>
-                        <a href="#vaardigheden" class="nav-link text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg p-2">Skills</a>
-                        <a href="#contact" class="nav-link text-white bg-indigo-600 hover:bg-indigo-700 transition duration-300 px-4 py-2 rounded-full shadow-md">Contact</a>
-                    </div>
+                <a href="#" class="text-xl font-bold text-white">Falco van Dooremolen</a>
+                <div class="flex items-center gap-4">
+                    <button id="lang-toggle" class="text-sm text-gray-400 hover:text-white transition">NL | EN</button>
+                    <button id="theme-toggle" class="text-gray-400 hover:text-white transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                        </svg>
+                    </button>
+                    <a href="mailto:falco@dooremolen.com" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+                        <span data-i18n="header.cta">Contact</span>
+                    </a>
                 </div>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- Hoofdcontainer -->
+    <!-- Main Content -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-        <!-- Introductie Sectie -->
-        <section id="intro" class="fade-in bg-white p-8 md:p-16 rounded-3xl shadow-xl mb-16 border-t-8 border-indigo-600">
-            <div class="flex flex-col md:flex-row items-center md:space-x-12">
-                <div class="flex-shrink-0 mb-8 md:mb-0">
-                    <img src="https://dooremolen.netlify.app/assets/img/profile.jpg" alt="Profielfoto Falco van Dooremolen, Product Owner"
-                         class="rounded-full w-44 h-44 object-cover border-4 border-indigo-200 shadow-lg">
-                </div>
-                <div>
-                    <span class="text-lg font-semibold text-indigo-600 uppercase tracking-wider">Product Owner / Agile Specialist</span>
-                    <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 mt-2 leading-tight">
+        <!-- Hero Section -->
+        <section id="hero" class="min-h-[80vh] flex items-center py-16">
+            <div class="grid md:grid-cols-2 gap-12 items-center w-full">
+                <!-- Left: Text Content -->
+                <div class="order-2 md:order-1">
+                    <p class="text-indigo-500 font-semibold tracking-wider text-sm mb-4" data-i18n="hero.tagline">
+                        TECHNICAL PRODUCT OWNER & AI IMPLEMENTATION PARTNER
+                    </p>
+                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
                         Falco van Dooremolen
                     </h1>
-                    <p class="mt-4 text-xl text-gray-600 max-w-2xl">
-                        Ik ben een resultaatgerichte <strong>Product Owner</strong> die de complexiteit van de business vertaalt naar concrete, ontwikkelbare oplossingen. Met een diepe basis in <strong>Agile</strong>, <strong>Scrum</strong> en mijn eerdere ervaring als <strong>Software Engineer</strong>, focus ik me op het leveren van maximale klantwaarde en het realiseren van een optimale klantervaring bij Visma Verzuim.
+                    <p class="text-xl text-gray-400 mb-8 max-w-lg" data-i18n="hero.positioning">
+                        Ik help organisaties AI-tools te adopteren en vertaal complexe technologie naar concrete productwaarde.
                     </p>
-                    <div class="mt-6 flex flex-wrap gap-4 items-center">
-                        <span class="text-sm font-medium bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Raalte</span>
-                        <span class="text-sm font-medium bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Moedertaal: Nederlands</span>
-                        <span class="text-sm font-medium bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Engels</span>
-                        <a href="https://www.linkedin.com/in/falco-van-dooremolen/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-800 transition duration-300" aria-label="LinkedIn profiel Falco van Dooremolen">
-                            <!-- LinkedIn Icon (Inline SVG) -->
-                            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM5 9h4v12H5zM7 2a2 2 0 110 4 2 2 0 010-4z"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Werkervaring Sectie (Gegroepeerd) -->
-        <section id="ervaring" class="py-12">
-            <h2 class="text-4xl font-extrabold text-gray-900 mb-10 text-center">Werkervaring</h2>
-
-            <div class="relative border-l-4 border-indigo-200 ml-4 md:ml-10">
-
-                <!-- GRUPERING: VISMA VERZUIM -->
-                <h3 class="text-3xl font-bold text-gray-800 ml-8 md:ml-12 mb-6 mt-4">Visma Verzuim <span class="text-xl font-normal text-gray-500">(September 2015 - Heden)</span></h3>
-
-                <!-- Product Owner -->
-                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
-                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-2xl font-bold text-indigo-600">Product Owner</h3>
-                        <span class="text-sm font-semibold text-gray-500">Januari 2023 - heden</span>
-                    </div>
-                    <p class="text-gray-600">
-                        Verantwoordelijk voor het beheren van de product backlog, het definiëren en prioriteren van functionaliteiten in nauwe samenwerking met stakeholders, en het waarborgen van maximale waarde voor klanten. Focus op effectieve samenwerking met ontwikkelteams.
-                    </p>
-                </article>
-
-                <!-- Agile Coach -->
-                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
-                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-2xl font-bold text-indigo-600">Agile Coach</h3>
-                        <span class="text-sm font-semibold text-gray-500">Oktober 2021 - december 2022</span>
-                    </div>
-                    <p class="text-gray-600">
-                        Begeleiding van teams bij de invoering van Agile methodologieën (Scrum/Kanban). Faciliteren van events, verfijnen van processen en coaching om de samenwerking, communicatie en continue verbetering binnen de organisatie te verbeteren.
-                    </p>
-                </article>
-
-                <!-- Scrum Master -->
-                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
-                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-2xl font-bold text-indigo-600">Scrum Master</h3>
-                        <span class="text-sm font-semibold text-gray-500">Juli 2017 - september 2021</span>
-                    </div>
-                    <p class="text-gray-600">
-                        Ondersteuning van ontwikkelteams in het Scrum-framework, focus op doelen, verwijderen van obstakels en samenwerken met Product Owners voor backlog-prioritering en -refinement.
-                    </p>
-                </article>
-
-                <!-- Software Engineer -->
-                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
-                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-2xl font-bold text-indigo-600">Software Engineer</h3>
-                        <!-- Aangepast: tot juni 2016 -> tot juni 2017 -->
-                        <span class="text-sm font-semibold text-gray-500">September 2015 - juni 2017</span>
-                    </div>
-                    <p class="text-gray-600">
-                        Ontwerpen, ontwikkelen en onderhouden van softwareproducten. Creëren van schaalbare oplossingen, schrijven van onderhoudbare code en bijdragen aan code-reviews en debugging.
-                    </p>
-                </article>
-
-                <!-- GRUPERING: VDIA INTERNET APPLICATIONS -->
-                <h3 class="text-3xl font-bold text-gray-800 ml-8 md:ml-12 mb-6 mt-12 border-t pt-8 border-gray-200">vDia Internet Applications <span class="text-xl font-normal text-gray-500">(Januari 2012 - Heden)</span></h3>
-
-                <!-- Eigenaar vDia -->
-                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
-                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-2xl font-bold text-indigo-600">Eigenaar</h3>
-                        <span class="text-sm font-semibold text-gray-500">Januari 2012 - Heden</span>
-                    </div>
-                    <p class="text-gray-600">
-                        Gespecialiseerd in het ontwikkelen van op maat gemaakte weboplossingen om bedrijven te helpen hun online aanwezigheid te optimaliseren. Opgericht met een eigen ontwikkeld Content Management Systeem (Huidige activiteiten zijn nihil).
-                    </p>
-                </article>
-
-
-                <!-- GRUPERING: MAILSTREET B.V. -->
-                <h3 class="text-3xl font-bold text-gray-800 ml-8 md:ml-12 mb-6 mt-12 border-t pt-8 border-gray-200">MailStreet B.V. <span class="text-xl font-normal text-gray-500">(Maart 2010 - Augustus 2015)</span></h3>
-
-                <!-- PHP Developer MailStreet -->
-                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
-                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-2xl font-bold text-indigo-600">PHP Developer</h3>
-                        <span class="text-sm font-semibold text-gray-500">Maart 2010 - Augustus 2015</span>
-                    </div>
-                    <p class="text-gray-600">
-                        Ontwikkelen en onderhouden van web-2-print portalen voor 'Personal Printing on demand'. Beheren van websystemen en backend-systemen.
-                    </p>
-                </article>
-
-
-                <!-- GRUPERING: OVERIGE VROEGE ERVARING -->
-                <h3 class="text-3xl font-bold text-gray-800 ml-8 md:ml-12 mb-6 mt-12 border-t pt-8 border-gray-200">Overige ervaring <span class="text-xl font-normal text-gray-500">(2006 - 2010)</span></h3>
-
-                <!-- Freelancer (DoWebs Webcreations) -->
-                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
-                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-2xl font-bold text-indigo-600">Freelancer (DoWebs Webcreations)</h3>
-                        <span class="text-sm font-semibold text-gray-500">September 2009 - December 2010</span>
-                    </div>
-                    <p class="text-gray-600">
-                        Freelance werkzaamheden gericht op webcreatie en het opzetten van websites voor klanten.
-                    </p>
-                </article>
-
-                <!-- Trainee Developer (WebProdie) -->
-                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
-                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-2xl font-bold text-indigo-600">Trainee Developer (WebProdie)</h3>
-                        <span class="text-sm font-semibold text-gray-500">Augustus 2008 - Juli 2009</span>
-                    </div>
-                    <p class="text-gray-600">
-                        Ontwikkelingstraining en praktische ervaring in het programmeren van software en webapplicaties in een stage-omgeving.
-                    </p>
-                </article>
-
-                <!-- Technical Support (Salland Automatisering) -->
-                <article class="experience-card bg-white p-6 rounded-xl mb-8 ml-8 md:ml-12 shadow-md transition duration-300">
-                    <div class="absolute w-4 h-4 bg-indigo-600 rounded-full mt-1.5 -left-2 md:-left-2.5 border-4 border-white"></div>
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-2xl font-bold text-indigo-600">Technical Support (Salland Automatisering)</h3>
-                        <span class="text-sm font-semibold text-gray-500">Juni 2006 - Augustus 2009</span>
-                    </div>
-                    <p class="text-gray-600">
-                        Bieden van technische ondersteuning en service aan zowel particuliere als zakelijke klanten, inclusief probleemoplossing en hardware/software installatie.
-                    </p>
-                </article>
-
-            </div>
-        </section>
-        
-        <!-- Opleidingen & Certificaten Sectie (VOLGORDE OMGEKEERD) -->
-        <section id="opleiding" class="py-12 bg-white p-8 rounded-3xl shadow-xl mb-16">
-            <h2 class="text-4xl font-extrabold text-gray-900 mb-10 text-center">Opleidingen & Certificaten</h2>
-
-            <div class="grid md:grid-cols-2 gap-8">
-                <!-- Opleidingen -->
-                <div class="space-y-6">
-                    <h3 class="text-2xl font-bold text-indigo-600 border-b-2 border-indigo-100 pb-2">Opleidingen</h3>
-
-                    <div class="bg-indigo-50 p-4 rounded-xl shadow-inner">
-                        <p class="text-lg font-semibold text-gray-800">ICT Beheerder - MBO4</p>
-                        <p class="text-sm text-gray-600">ROC Deltion College - 2009</p>
+                    <!-- Proof Badges -->
+                    <div class="flex flex-wrap gap-3 mb-8">
+                        <span class="bg-dark-card border border-dark-border px-4 py-2 rounded-full text-sm text-gray-300" data-i18n="hero.badge.experience">
+                            10+ jaar tech ervaring
+                        </span>
+                        <span class="bg-dark-card border border-dark-border px-4 py-2 rounded-full text-sm text-gray-300" data-i18n="hero.badge.certified">
+                            PSM I Certified
+                        </span>
+                        <span class="bg-dark-card border border-dark-border px-4 py-2 rounded-full text-sm text-gray-300" data-i18n="hero.badge.company">
+                            Visma Verzuim
+                        </span>
                     </div>
 
-                    <div class="bg-indigo-50 p-4 rounded-xl shadow-inner">
-                        <p class="text-lg font-semibold text-gray-800">Medewerker beheerder ICT - MBO3</p>
-                        <p class="text-sm text-gray-600">ROC Deltion College - 2008</p>
-                    </div>
-                </div>
-                
-                <!-- Certificaten -->
-                <div class="space-y-6">
-                    <h3 class="text-2xl font-bold text-indigo-600 border-b-2 border-indigo-100 pb-2">Certificaten</h3>
-
-                    <div class="bg-indigo-50 p-4 rounded-xl shadow-inner">
-                        <p class="text-lg font-semibold text-gray-800">
-                            <!-- Link naar Scrum.org profiel behouden -->
-                            <a href="https://www.scrum.org/user/239641" target="_blank" rel="noopener noreferrer" class="hover:underline text-indigo-700">
-                                PSM I
-                            </a>
-                        </p>
-                        <p class="text-sm text-gray-600">Scrum.org - 2017</p>
-                    </div>
-
-                    <div class="bg-indigo-50 p-4 rounded-xl shadow-inner">
-                        <p class="text-lg font-semibold text-gray-800">Java 7</p>
-                        <p class="text-sm text-gray-600">Vijfhart IT-Opleidingen - 2015</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Vaardigheden & Focusgebieden Sectie -->
-        <section id="vaardigheden" class="py-12 bg-white p-8 rounded-3xl shadow-xl mb-16">
-            <h2 class="text-4xl font-extrabold text-gray-900 mb-10 text-center">Vaardigheden & Focusgebieden</h2>
-
-            <div class="grid md:grid-cols-2 gap-8">
-                <!-- Kerncompetenties -->
-                <div class="space-y-6">
-                    <h3 class="text-2xl font-bold text-indigo-600 border-b-2 border-indigo-100 pb-2">Kerncompetenties (Hard/Soft Skills)</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Scrum Framework</span>
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Product Vision & Strategy</span>
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Stakeholder Management</span>
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Coaching & Facilitate</span>
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Software Development (PHP/Java/Python)</span>
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Datagedreven besluitvorming</span>
-                    </div>
-                </div>
-
-                <!-- Technologische Focusgebieden -->
-                <div class="space-y-6">
-                    <h3 class="text-2xl font-bold text-indigo-600 border-b-2 border-indigo-100 pb-2">Technologische Focusgebieden</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full font-medium">Generatieve AI (Gemini & ChatGPT)</span>
-                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full font-medium">NotebookLM (Research & Summarization)</span>
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Product Analytics</span>
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full font-medium">Cloud Platforms (Basis)</span>
-                    </div>
-                    <!-- Markdown tekst in de HTML aangepast naar standaard tekst -->
-                    <p class="text-sm text-gray-600 mt-2">
-                        Grote interesse in het toepassen van AI-tools, zoals Gemini en NotebookLM, voor efficiëntere productontdekking, analyse van complexe documentatie en snelle ideegeneratie.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Contact Sectie -->
-        <section id="contact" class="py-12">
-            <div class="text-center bg-indigo-600 text-white p-10 rounded-3xl shadow-xl">
-                <h2 class="text-4xl font-extrabold mb-4">Neem Contact Op</h2>
-                <p class="text-xl mb-6 max-w-xl mx-auto">
-                    Bent u op zoek naar een ervaren Product Owner die waarde maximaliseert? Neem gerust contact op.
-                </p>
-
-                <div class="flex justify-center">
-                    <!-- Telefoonnummer verwijderd, alleen e-mailadres overgehouden -->
-                    <a href="mailto:falco@dooremolen.com" class="inline-flex items-center justify-center bg-white text-indigo-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-9 13h9a2 2 0 002-2V7a2 2 0 00-2-2H3a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                        falco@dooremolen.com
+                    <!-- CTA -->
+                    <a href="mailto:falco@dooremolen.com"
+                       class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition shadow-lg shadow-indigo-600/25">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        <span data-i18n="hero.cta">Neem contact op</span>
                     </a>
                 </div>
+
+                <!-- Right: Photo -->
+                <div class="order-1 md:order-2 flex justify-center">
+                    <div class="relative">
+                        <!-- Glow effect behind photo -->
+                        <div class="absolute inset-0 bg-indigo-600/20 rounded-3xl blur-3xl transform scale-110"></div>
+                        <img src="assets/img/profile.jpg"
+                             alt="Falco van Dooremolen - Technical Product Owner"
+                             class="relative rounded-3xl w-72 h-72 md:w-80 md:h-80 object-cover border-2 border-dark-border shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scroll Indicator -->
+        <div class="flex justify-center pb-8">
+            <a href="#bento" class="animate-bounce text-gray-500 hover:text-indigo-500 transition">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Bento Grid Section -->
+        <section id="bento" class="py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-fr">
+
+                <!-- Technical Product Owner (2x2) -->
+                <div class="lg:col-span-2 lg:row-span-2 bg-dark-card border border-dark-border rounded-3xl p-8 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
+                    <div class="h-full flex flex-col">
+                        <div class="mb-6">
+                            <div class="w-12 h-12 bg-indigo-600/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-indigo-600/20 transition">
+                                <svg class="w-6 h-6 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                </svg>
+                            </div>
+                            <h2 class="text-2xl font-bold text-white mb-2" data-i18n="block.po.title">Technical Product Owner</h2>
+                            <p class="text-gray-400" data-i18n="block.po.subtitle">Van strategie naar werkende software</p>
+                        </div>
+                        <ul class="space-y-3 mt-auto">
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
+                                <span data-i18n="block.po.item1">Value-driven prioritering</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
+                                <span data-i18n="block.po.item2">Data-gedreven besluitvorming</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
+                                <span data-i18n="block.po.item3">Strategische roadmap planning</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
+                                <span data-i18n="block.po.item4">Stakeholder management</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- AI Implementation Partner (2x2) -->
+                <div class="lg:col-span-2 lg:row-span-2 bg-dark-card border border-dark-border rounded-3xl p-8 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group relative overflow-hidden">
+                    <!-- Subtle gradient background -->
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-indigo-600/5 to-transparent rounded-full blur-3xl"></div>
+                    <div class="h-full flex flex-col relative">
+                        <div class="mb-6">
+                            <div class="w-12 h-12 bg-indigo-600/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-indigo-600/20 transition">
+                                <svg class="w-6 h-6 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                            </div>
+                            <h2 class="text-2xl font-bold text-white mb-2" data-i18n="block.ai.title">AI Implementation Partner</h2>
+                            <p class="text-gray-400" data-i18n="block.ai.subtitle">Meetbare resultaten door slimme automatisering</p>
+                        </div>
+                        <ul class="space-y-3 mt-auto">
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
+                                <span data-i18n="block.ai.item1">Reactietijd van uren naar minuten</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
+                                <span data-i18n="block.ai.item2">+30% lead-generatie door geautomatiseerde offertes</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
+                                <span data-i18n="block.ai.item3">Research-uren gehalveerd met slimme documentanalyse</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-gray-300">
+                                <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
+                                <span data-i18n="block.ai.item4">Teams getraind om AI zelfstandig toe te passen</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Engineering Roots (2x1) -->
+                <div class="lg:col-span-2 bg-dark-card border border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-indigo-600/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-600/20 transition">
+                            <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-white mb-1" data-i18n="block.eng.title">Engineering Roots</h3>
+                            <p class="text-gray-400 text-sm mb-4" data-i18n="block.eng.subtitle">Ik spreek de taal van developers</p>
+                            <div class="flex flex-wrap gap-2 mb-3">
+                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">PHP</span>
+                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">Java</span>
+                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">MySQL</span>
+                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">OOP</span>
+                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">API's</span>
+                            </div>
+                            <p class="text-gray-500 text-sm" data-i18n="block.eng.experience">10+ jaar hands-on development ervaring</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agile Coaching (2x1) -->
+                <div class="lg:col-span-2 bg-dark-card border border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-indigo-600/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-600/20 transition">
+                            <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex items-center gap-3 mb-1">
+                                <h3 class="text-lg font-bold text-white" data-i18n="block.coach.title">Agile Coaching</h3>
+                                <span class="bg-indigo-600/20 text-indigo-400 px-2 py-0.5 rounded text-xs font-medium">PSM I</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mb-3" data-i18n="block.coach.subtitle">Van teamdynamiek tot persoonlijke groei</p>
+                            <ul class="space-y-1 text-sm text-gray-300">
+                                <li data-i18n="block.coach.item1">Scrum Master (4+ jaar)</li>
+                                <li data-i18n="block.coach.item2">Team coaching & facilitatie</li>
+                                <li data-i18n="block.coach.item3">Agile transformaties begeleid</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications (1x1) -->
+                <div class="bg-dark-card border border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10">
+                    <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4" data-i18n="block.certs.title">Certificaten</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <a href="https://www.scrum.org/user/239641" target="_blank" rel="noopener noreferrer" class="text-white font-semibold hover:text-indigo-400 transition">PSM I</a>
+                            <p class="text-gray-500 text-sm">Scrum.org · 2017</p>
+                        </div>
+                        <div>
+                            <p class="text-white font-semibold">Java 7</p>
+                            <p class="text-gray-500 text-sm">Vijfhart · 2015</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Stats (1x1) -->
+                <div class="bg-dark-card border border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10">
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-3xl font-bold text-white" data-i18n="block.stats.experience">10+ jaar</p>
+                            <p class="text-gray-500 text-sm" data-i18n="block.stats.experienceLabel">tech ervaring</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-bold text-white" data-i18n="block.stats.roles">4 rollen</p>
+                            <p class="text-gray-500 text-sm" data-i18n="block.stats.rolesLabel">bij Visma Verzuim</p>
+                        </div>
+                        <div class="pt-2 border-t border-dark-border">
+                            <p class="text-gray-400" data-i18n="block.stats.location">Raalte, NL</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline" class="py-16">
+            <h2 class="text-3xl font-bold text-white mb-12 text-center" data-i18n="timeline.title">Carrière</h2>
+
+            <div class="bg-dark-card border border-dark-border rounded-3xl p-8">
+                <!-- Visma Verzuim -->
+                <div class="mb-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <h3 class="text-xl font-bold text-white">Visma Verzuim</h3>
+                        <span class="text-gray-500">2015 - heden</span>
+                    </div>
+
+                    <div class="relative border-l-2 border-indigo-600/30 ml-2 space-y-6">
+                        <!-- Product Owner - Current -->
+                        <div class="relative pl-8">
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-indigo-600 rounded-full border-4 border-dark-card"></div>
+                            <div class="flex items-center gap-3">
+                                <h4 class="text-lg font-semibold text-white">Product Owner</h4>
+                                <span class="bg-indigo-600 text-white text-xs px-2 py-0.5 rounded" data-i18n="timeline.current">Nu</span>
+                            </div>
+                            <p class="text-gray-500 text-sm">2023 - heden</p>
+                        </div>
+
+                        <!-- Agile Coach -->
+                        <div class="relative pl-8">
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-dark-border rounded-full border-4 border-dark-card"></div>
+                            <h4 class="text-lg font-semibold text-gray-300">Agile Coach</h4>
+                            <p class="text-gray-500 text-sm">2021 - 2022</p>
+                        </div>
+
+                        <!-- Scrum Master -->
+                        <div class="relative pl-8">
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-dark-border rounded-full border-4 border-dark-card"></div>
+                            <h4 class="text-lg font-semibold text-gray-300">Scrum Master</h4>
+                            <p class="text-gray-500 text-sm">2017 - 2021</p>
+                        </div>
+
+                        <!-- Software Engineer -->
+                        <div class="relative pl-8">
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-dark-border rounded-full border-4 border-dark-card"></div>
+                            <h4 class="text-lg font-semibold text-gray-300">Software Engineer</h4>
+                            <p class="text-gray-500 text-sm">2015 - 2017</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Earlier Experience (Collapsed) -->
+                <details class="group">
+                    <summary class="flex items-center gap-2 cursor-pointer text-gray-400 hover:text-white transition">
+                        <svg class="w-4 h-4 transition-transform group-open:rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        <span data-i18n="timeline.more">Eerdere ervaring</span>
+                    </summary>
+                    <div class="mt-6 pl-6 space-y-4 text-gray-400">
+                        <div>
+                            <p class="font-medium text-gray-300">vDia Internet Applications · Eigenaar</p>
+                            <p class="text-sm">2012 - heden</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-300">MailStreet B.V. · PHP Developer</p>
+                            <p class="text-sm">2010 - 2015</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-300">DoWebs Webcreations · Freelancer</p>
+                            <p class="text-sm">2009 - 2010</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-300">WebProdie · Trainee Developer</p>
+                            <p class="text-sm">2008 - 2009</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-300">Salland Automatisering · Technical Support</p>
+                            <p class="text-sm">2006 - 2009</p>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16">
+            <div id="contact-form-area" class="bg-gradient-to-br from-dark-card to-dark-bg border border-dark-border rounded-3xl p-12 text-center">
+                <h2 class="text-4xl font-bold text-white mb-4" data-i18n="contact.title">Laten we praten</h2>
+                <p class="text-xl text-gray-400 mb-8 max-w-xl mx-auto" data-i18n="contact.subtitle">
+                    Op zoek naar een Technical Product Owner of hulp bij AI-adoptie? Neem contact op.
+                </p>
+
+                <a href="mailto:falco@dooremolen.com"
+                   class="inline-flex items-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white px-10 py-4 rounded-full text-xl font-semibold transition shadow-lg shadow-indigo-600/25 mb-4">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                    <span data-i18n="contact.cta">Mail mij</span>
+                </a>
+
+                <p class="text-gray-500">falco@dooremolen.com</p>
+
+                <!-- Future hook for N8N/Calendly -->
+                <p class="text-gray-600 text-sm mt-6" data-i18n="contact.future">Of plan direct een gesprek</p>
             </div>
         </section>
 
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-6 mt-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <!-- Aangepast: Gebouwd met Gemini Canvas -->
-            <p>&copy; 2025 Falco van Dooremolen. Gebouwd met Gemini Canvas.</p>
+    <footer class="border-t border-dark-border py-8 mt-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">&copy; 2026 Falco van Dooremolen</p>
+
+                <div class="flex items-center gap-6">
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/falco-van-dooremolen/" target="_blank" rel="noopener noreferrer"
+                       class="text-gray-500 hover:text-white transition" aria-label="LinkedIn">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+
+                    <!-- Built with badge -->
+                    <span class="text-gray-600 text-sm" data-i18n="footer.built">Gebouwd met Claude Code</span>
+                </div>
+            </div>
         </div>
     </footer>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NBSM91VC55"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-NBSM91VC55');
-</script>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NBSM91VC55"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-NBSM91VC55');
+    </script>
 </body>
 </html>
