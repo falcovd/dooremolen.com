@@ -144,8 +144,8 @@
         const toggle = document.getElementById('lang-toggle');
         if (toggle) {
             toggle.innerHTML = currentLang === 'nl'
-                ? '<span class="text-white font-medium">NL</span> | <span>EN</span>'
-                : '<span>NL</span> | <span class="text-white font-medium">EN</span>';
+                ? '<span class="text-gray-900 dark:text-white font-medium">NL</span> | <span>EN</span>'
+                : '<span>NL</span> | <span class="text-gray-900 dark:text-white font-medium">EN</span>';
         }
     }
 
