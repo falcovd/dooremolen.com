@@ -92,16 +92,16 @@
     }
     </script>
 </head>
-<body class="bg-dark-bg text-gray-100 min-h-screen">
+<body class="bg-gray-50 dark:bg-dark-bg text-gray-900 dark:text-gray-100 min-h-screen">
 
     <!-- Header -->
-    <header id="header" class="sticky top-0 z-50 bg-dark-bg/80 backdrop-blur-md border-b border-dark-border">
+    <header id="header" class="sticky top-0 z-50 bg-gray-50/80 dark:bg-dark-bg/80 backdrop-blur-md border-b border-gray-200 dark:border-dark-border">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <a href="#" class="text-xl font-bold text-white">Falco van Dooremolen</a>
+                <a href="#" class="text-xl font-bold text-gray-900 dark:text-white">Falco van Dooremolen</a>
                 <div class="flex items-center gap-4">
-                    <button id="lang-toggle" class="text-sm text-gray-400 hover:text-white transition">NL | EN</button>
-                    <button id="theme-toggle" class="text-gray-400 hover:text-white transition">
+                    <button id="lang-toggle" class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition">NL | EN</button>
+                    <button id="theme-toggle" class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
                         </svg>
@@ -125,22 +125,22 @@
                     <p class="text-indigo-500 font-semibold tracking-wider text-sm mb-4" data-i18n="hero.tagline">
                         TECHNICAL PRODUCT OWNER & AI IMPLEMENTATION PARTNER
                     </p>
-                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
                         Falco van Dooremolen
                     </h1>
-                    <p class="text-xl text-gray-400 mb-8 max-w-lg" data-i18n="hero.positioning">
+                    <p class="text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-lg" data-i18n="hero.positioning">
                         Ik help organisaties AI-tools te adopteren en vertaal complexe technologie naar concrete productwaarde.
                     </p>
 
                     <!-- Proof Badges -->
                     <div class="flex flex-wrap gap-3 mb-8">
-                        <span class="bg-dark-card border border-dark-border px-4 py-2 rounded-full text-sm text-gray-300" data-i18n="hero.badge.experience">
+                        <span class="bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border px-4 py-2 rounded-full text-sm text-gray-700 dark:text-gray-300" data-i18n="hero.badge.experience">
                             10+ jaar tech ervaring
                         </span>
-                        <span class="bg-dark-card border border-dark-border px-4 py-2 rounded-full text-sm text-gray-300" data-i18n="hero.badge.certified">
+                        <span class="bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border px-4 py-2 rounded-full text-sm text-gray-700 dark:text-gray-300" data-i18n="hero.badge.certified">
                             PSM I Certified
                         </span>
-                        <span class="bg-dark-card border border-dark-border px-4 py-2 rounded-full text-sm text-gray-300" data-i18n="hero.badge.company">
+                        <span class="bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border px-4 py-2 rounded-full text-sm text-gray-700 dark:text-gray-300" data-i18n="hero.badge.company">
                             Visma Verzuim
                         </span>
                     </div>
@@ -162,7 +162,7 @@
                         <div class="absolute inset-0 bg-indigo-600/20 rounded-3xl blur-3xl transform scale-110"></div>
                         <img src="assets/img/profile.jpg"
                              alt="Falco van Dooremolen - Technical Product Owner"
-                             class="relative rounded-3xl w-72 h-72 md:w-80 md:h-80 object-cover border-2 border-dark-border shadow-2xl">
+                             class="relative rounded-3xl w-72 h-72 md:w-80 md:h-80 object-cover border-2 border-gray-200 dark:border-dark-border shadow-2xl">
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
 
         <!-- Scroll Indicator -->
         <div class="flex justify-center pb-8">
-            <a href="#bento" class="animate-bounce text-gray-500 hover:text-indigo-500 transition">
+            <a href="#bento" class="animate-bounce text-gray-400 dark:text-gray-500 hover:text-indigo-500 transition">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                 </svg>
@@ -182,7 +182,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-fr">
 
                 <!-- Technical Product Owner (2x2) -->
-                <div class="lg:col-span-2 lg:row-span-2 bg-dark-card border border-dark-border rounded-3xl p-8 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
+                <div class="lg:col-span-2 lg:row-span-2 bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border rounded-3xl p-8 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
                     <div class="h-full flex flex-col">
                         <div class="mb-6">
                             <div class="w-12 h-12 bg-indigo-600/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-indigo-600/20 transition">
@@ -190,23 +190,23 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                                 </svg>
                             </div>
-                            <h2 class="text-2xl font-bold text-white mb-2" data-i18n="block.po.title">Technical Product Owner</h2>
-                            <p class="text-gray-400" data-i18n="block.po.subtitle">Van strategie naar werkende software</p>
+                            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-2" data-i18n="block.po.title">Technical Product Owner</h2>
+                            <p class="text-gray-600 dark:text-gray-400" data-i18n="block.po.subtitle">Van strategie naar werkende software</p>
                         </div>
                         <ul class="space-y-3 mt-auto">
-                            <li class="flex items-center gap-3 text-gray-300">
+                            <li class="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
                                 <span data-i18n="block.po.item1">Value-driven prioritering</span>
                             </li>
-                            <li class="flex items-center gap-3 text-gray-300">
+                            <li class="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
                                 <span data-i18n="block.po.item2">Data-gedreven besluitvorming</span>
                             </li>
-                            <li class="flex items-center gap-3 text-gray-300">
+                            <li class="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
                                 <span data-i18n="block.po.item3">Strategische roadmap planning</span>
                             </li>
-                            <li class="flex items-center gap-3 text-gray-300">
+                            <li class="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
                                 <span data-i18n="block.po.item4">Stakeholder management</span>
                             </li>
@@ -215,7 +215,7 @@
                 </div>
 
                 <!-- AI Implementation Partner (2x2) -->
-                <div class="lg:col-span-2 lg:row-span-2 bg-dark-card border border-dark-border rounded-3xl p-8 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group relative overflow-hidden">
+                <div class="lg:col-span-2 lg:row-span-2 bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border rounded-3xl p-8 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group relative overflow-hidden">
                     <!-- Subtle gradient background -->
                     <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-indigo-600/5 to-transparent rounded-full blur-3xl"></div>
                     <div class="h-full flex flex-col relative">
@@ -225,23 +225,23 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                                 </svg>
                             </div>
-                            <h2 class="text-2xl font-bold text-white mb-2" data-i18n="block.ai.title">AI Implementation Partner</h2>
-                            <p class="text-gray-400" data-i18n="block.ai.subtitle">Meetbare resultaten door slimme automatisering</p>
+                            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-2" data-i18n="block.ai.title">AI Implementation Partner</h2>
+                            <p class="text-gray-600 dark:text-gray-400" data-i18n="block.ai.subtitle">Meetbare resultaten door slimme automatisering</p>
                         </div>
                         <ul class="space-y-3 mt-auto">
-                            <li class="flex items-center gap-3 text-gray-300">
+                            <li class="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
                                 <span data-i18n="block.ai.item1">Reactietijd van uren naar minuten</span>
                             </li>
-                            <li class="flex items-center gap-3 text-gray-300">
+                            <li class="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
                                 <span data-i18n="block.ai.item2">+30% lead-generatie door geautomatiseerde offertes</span>
                             </li>
-                            <li class="flex items-center gap-3 text-gray-300">
+                            <li class="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
                                 <span data-i18n="block.ai.item3">Research-uren gehalveerd met slimme documentanalyse</span>
                             </li>
-                            <li class="flex items-center gap-3 text-gray-300">
+                            <li class="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
                                 <span data-i18n="block.ai.item4">Teams getraind om AI zelfstandig toe te passen</span>
                             </li>
@@ -250,7 +250,7 @@
                 </div>
 
                 <!-- Engineering Roots (2x1) -->
-                <div class="lg:col-span-2 bg-dark-card border border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
+                <div class="lg:col-span-2 bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
                     <div class="flex items-start gap-4">
                         <div class="w-10 h-10 bg-indigo-600/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-600/20 transition">
                             <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -258,14 +258,14 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h3 class="text-lg font-bold text-white mb-1" data-i18n="block.eng.title">Engineering Roots</h3>
-                            <p class="text-gray-400 text-sm mb-4" data-i18n="block.eng.subtitle">Ik spreek de taal van developers</p>
+                            <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-1" data-i18n="block.eng.title">Engineering Roots</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4" data-i18n="block.eng.subtitle">Ik spreek de taal van developers</p>
                             <div class="flex flex-wrap gap-2 mb-3">
-                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">PHP</span>
-                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">Java</span>
-                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">MySQL</span>
-                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">OOP</span>
-                                <span class="bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-400">API's</span>
+                                <span class="bg-gray-100 dark:bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-600 dark:text-gray-400">PHP</span>
+                                <span class="bg-gray-100 dark:bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-600 dark:text-gray-400">Java</span>
+                                <span class="bg-gray-100 dark:bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-600 dark:text-gray-400">MySQL</span>
+                                <span class="bg-gray-100 dark:bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-600 dark:text-gray-400">OOP</span>
+                                <span class="bg-gray-100 dark:bg-dark-bg px-3 py-1 rounded-full text-xs text-gray-600 dark:text-gray-400">API's</span>
                             </div>
                             <p class="text-gray-500 text-sm" data-i18n="block.eng.experience">10+ jaar hands-on development ervaring</p>
                         </div>
@@ -273,7 +273,7 @@
                 </div>
 
                 <!-- Agile Coaching (2x1) -->
-                <div class="lg:col-span-2 bg-dark-card border border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
+                <div class="lg:col-span-2 bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
                     <div class="flex items-start gap-4">
                         <div class="w-10 h-10 bg-indigo-600/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-600/20 transition">
                             <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -282,11 +282,11 @@
                         </div>
                         <div class="flex-1">
                             <div class="flex items-center gap-3 mb-1">
-                                <h3 class="text-lg font-bold text-white" data-i18n="block.coach.title">Agile Coaching</h3>
-                                <span class="bg-indigo-600/20 text-indigo-400 px-2 py-0.5 rounded text-xs font-medium">PSM I</span>
+                                <h3 class="text-lg font-bold text-gray-900 dark:text-white" data-i18n="block.coach.title">Agile Coaching</h3>
+                                <span class="bg-indigo-600/20 text-indigo-600 dark:text-indigo-400 px-2 py-0.5 rounded text-xs font-medium">PSM I</span>
                             </div>
-                            <p class="text-gray-400 text-sm mb-3" data-i18n="block.coach.subtitle">Van teamdynamiek tot persoonlijke groei</p>
-                            <ul class="space-y-1 text-sm text-gray-300">
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-3" data-i18n="block.coach.subtitle">Van teamdynamiek tot persoonlijke groei</p>
+                            <ul class="space-y-1 text-sm text-gray-700 dark:text-gray-300">
                                 <li data-i18n="block.coach.item1">Scrum Master (4+ jaar)</li>
                                 <li data-i18n="block.coach.item2">Team coaching & facilitatie</li>
                                 <li data-i18n="block.coach.item3">Agile transformaties begeleid</li>
@@ -296,33 +296,33 @@
                 </div>
 
                 <!-- Certifications (1x1) -->
-                <div class="bg-dark-card border border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10">
-                    <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4" data-i18n="block.certs.title">Certificaten</h3>
+                <div class="bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10">
+                    <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-4" data-i18n="block.certs.title">Certificaten</h3>
                     <div class="space-y-3">
                         <div>
-                            <a href="https://www.scrum.org/user/239641" target="_blank" rel="noopener noreferrer" class="text-white font-semibold hover:text-indigo-400 transition">PSM I</a>
+                            <a href="https://www.scrum.org/user/239641" target="_blank" rel="noopener noreferrer" class="text-gray-900 dark:text-white font-semibold hover:text-indigo-600 dark:hover:text-indigo-400 transition">PSM I</a>
                             <p class="text-gray-500 text-sm">Scrum.org · 2017</p>
                         </div>
                         <div>
-                            <p class="text-white font-semibold">Java 7</p>
+                            <p class="text-gray-900 dark:text-white font-semibold">Java 7</p>
                             <p class="text-gray-500 text-sm">Vijfhart · 2015</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Quick Stats (1x1) -->
-                <div class="bg-dark-card border border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10">
+                <div class="bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border rounded-3xl p-6 hover:border-indigo-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10">
                     <div class="space-y-4">
                         <div>
-                            <p class="text-3xl font-bold text-white" data-i18n="block.stats.experience">10+ jaar</p>
+                            <p class="text-3xl font-bold text-gray-900 dark:text-white" data-i18n="block.stats.experience">10+ jaar</p>
                             <p class="text-gray-500 text-sm" data-i18n="block.stats.experienceLabel">tech ervaring</p>
                         </div>
                         <div>
-                            <p class="text-3xl font-bold text-white" data-i18n="block.stats.roles">4 rollen</p>
+                            <p class="text-3xl font-bold text-gray-900 dark:text-white" data-i18n="block.stats.roles">4 rollen</p>
                             <p class="text-gray-500 text-sm" data-i18n="block.stats.rolesLabel">bij Visma Verzuim</p>
                         </div>
-                        <div class="pt-2 border-t border-dark-border">
-                            <p class="text-gray-400" data-i18n="block.stats.location">Raalte, NL</p>
+                        <div class="pt-2 border-t border-gray-200 dark:border-dark-border">
+                            <p class="text-gray-600 dark:text-gray-400" data-i18n="block.stats.location">Raalte, NL</p>
                         </div>
                     </div>
                 </div>
@@ -332,22 +332,22 @@
 
         <!-- Timeline Section -->
         <section id="timeline" class="py-16">
-            <h2 class="text-3xl font-bold text-white mb-12 text-center" data-i18n="timeline.title">Carrière</h2>
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center" data-i18n="timeline.title">Carrière</h2>
 
-            <div class="bg-dark-card border border-dark-border rounded-3xl p-8">
+            <div class="bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border rounded-3xl p-8">
                 <!-- Visma Verzuim -->
                 <div class="mb-8">
                     <div class="flex items-center gap-4 mb-6">
-                        <h3 class="text-xl font-bold text-white">Visma Verzuim</h3>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Visma Verzuim</h3>
                         <span class="text-gray-500">2015 - heden</span>
                     </div>
 
                     <div class="relative border-l-2 border-indigo-600/30 ml-2 space-y-6">
                         <!-- Product Owner - Current -->
                         <div class="relative pl-8">
-                            <div class="absolute -left-2 top-1 w-4 h-4 bg-indigo-600 rounded-full border-4 border-dark-card"></div>
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-indigo-600 rounded-full border-4 border-white dark:border-dark-card"></div>
                             <div class="flex items-center gap-3">
-                                <h4 class="text-lg font-semibold text-white">Product Owner</h4>
+                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Product Owner</h4>
                                 <span class="bg-indigo-600 text-white text-xs px-2 py-0.5 rounded" data-i18n="timeline.current">Nu</span>
                             </div>
                             <p class="text-gray-500 text-sm">2023 - heden</p>
@@ -355,22 +355,22 @@
 
                         <!-- Agile Coach -->
                         <div class="relative pl-8">
-                            <div class="absolute -left-2 top-1 w-4 h-4 bg-dark-border rounded-full border-4 border-dark-card"></div>
-                            <h4 class="text-lg font-semibold text-gray-300">Agile Coach</h4>
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-gray-300 dark:bg-dark-border rounded-full border-4 border-white dark:border-dark-card"></div>
+                            <h4 class="text-lg font-semibold text-gray-700 dark:text-gray-300">Agile Coach</h4>
                             <p class="text-gray-500 text-sm">2021 - 2022</p>
                         </div>
 
                         <!-- Scrum Master -->
                         <div class="relative pl-8">
-                            <div class="absolute -left-2 top-1 w-4 h-4 bg-dark-border rounded-full border-4 border-dark-card"></div>
-                            <h4 class="text-lg font-semibold text-gray-300">Scrum Master</h4>
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-gray-300 dark:bg-dark-border rounded-full border-4 border-white dark:border-dark-card"></div>
+                            <h4 class="text-lg font-semibold text-gray-700 dark:text-gray-300">Scrum Master</h4>
                             <p class="text-gray-500 text-sm">2017 - 2021</p>
                         </div>
 
                         <!-- Software Engineer -->
                         <div class="relative pl-8">
-                            <div class="absolute -left-2 top-1 w-4 h-4 bg-dark-border rounded-full border-4 border-dark-card"></div>
-                            <h4 class="text-lg font-semibold text-gray-300">Software Engineer</h4>
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-gray-300 dark:bg-dark-border rounded-full border-4 border-white dark:border-dark-card"></div>
+                            <h4 class="text-lg font-semibold text-gray-700 dark:text-gray-300">Software Engineer</h4>
                             <p class="text-gray-500 text-sm">2015 - 2017</p>
                         </div>
                     </div>
@@ -378,31 +378,31 @@
 
                 <!-- Earlier Experience (Collapsed) -->
                 <details class="group">
-                    <summary class="flex items-center gap-2 cursor-pointer text-gray-400 hover:text-white transition">
+                    <summary class="flex items-center gap-2 cursor-pointer text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition">
                         <svg class="w-4 h-4 transition-transform group-open:rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                         </svg>
                         <span data-i18n="timeline.more">Eerdere ervaring</span>
                     </summary>
-                    <div class="mt-6 pl-6 space-y-4 text-gray-400">
+                    <div class="mt-6 pl-6 space-y-4 text-gray-600 dark:text-gray-400">
                         <div>
-                            <p class="font-medium text-gray-300">vDia Internet Applications · Eigenaar</p>
+                            <p class="font-medium text-gray-700 dark:text-gray-300">vDia Internet Applications · Eigenaar</p>
                             <p class="text-sm">2012 - heden</p>
                         </div>
                         <div>
-                            <p class="font-medium text-gray-300">MailStreet B.V. · PHP Developer</p>
+                            <p class="font-medium text-gray-700 dark:text-gray-300">MailStreet B.V. · PHP Developer</p>
                             <p class="text-sm">2010 - 2015</p>
                         </div>
                         <div>
-                            <p class="font-medium text-gray-300">DoWebs Webcreations · Freelancer</p>
+                            <p class="font-medium text-gray-700 dark:text-gray-300">DoWebs Webcreations · Freelancer</p>
                             <p class="text-sm">2009 - 2010</p>
                         </div>
                         <div>
-                            <p class="font-medium text-gray-300">WebProdie · Trainee Developer</p>
+                            <p class="font-medium text-gray-700 dark:text-gray-300">WebProdie · Trainee Developer</p>
                             <p class="text-sm">2008 - 2009</p>
                         </div>
                         <div>
-                            <p class="font-medium text-gray-300">Salland Automatisering · Technical Support</p>
+                            <p class="font-medium text-gray-700 dark:text-gray-300">Salland Automatisering · Technical Support</p>
                             <p class="text-sm">2006 - 2009</p>
                         </div>
                     </div>
@@ -412,9 +412,9 @@
 
         <!-- Contact Section -->
         <section id="contact" class="py-16">
-            <div id="contact-form-area" class="bg-gradient-to-br from-dark-card to-dark-bg border border-dark-border rounded-3xl p-12 text-center">
-                <h2 class="text-4xl font-bold text-white mb-4" data-i18n="contact.title">Laten we praten</h2>
-                <p class="text-xl text-gray-400 mb-8 max-w-xl mx-auto" data-i18n="contact.subtitle">
+            <div id="contact-form-area" class="bg-gradient-to-br from-white to-gray-50 dark:from-dark-card dark:to-dark-bg border border-gray-200 dark:border-dark-border rounded-3xl p-12 text-center">
+                <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-4" data-i18n="contact.title">Laten we praten</h2>
+                <p class="text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-xl mx-auto" data-i18n="contact.subtitle">
                     Op zoek naar een Technical Product Owner of hulp bij AI-adoptie? Neem contact op.
                 </p>
 
@@ -429,14 +429,14 @@
                 <p class="text-gray-500">falco@dooremolen.com</p>
 
                 <!-- Future hook for N8N/Calendly -->
-                <p class="text-gray-600 text-sm mt-6" data-i18n="contact.future">Of plan direct een gesprek</p>
+                <p class="text-gray-500 dark:text-gray-600 text-sm mt-6" data-i18n="contact.future">Of plan direct een gesprek</p>
             </div>
         </section>
 
     </main>
 
     <!-- Footer -->
-    <footer class="border-t border-dark-border py-8 mt-8">
+    <footer class="border-t border-gray-200 dark:border-dark-border py-8 mt-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-gray-500 text-sm">&copy; 2026 Falco van Dooremolen</p>
@@ -444,14 +444,14 @@
                 <div class="flex items-center gap-6">
                     <!-- LinkedIn -->
                     <a href="https://www.linkedin.com/in/falco-van-dooremolen/" target="_blank" rel="noopener noreferrer"
-                       class="text-gray-500 hover:text-white transition" aria-label="LinkedIn">
+                       class="text-gray-500 hover:text-gray-900 dark:hover:text-white transition" aria-label="LinkedIn">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                         </svg>
                     </a>
 
                     <!-- Built with badge -->
-                    <span class="text-gray-600 text-sm" data-i18n="footer.built">Gebouwd met Claude Code</span>
+                    <span class="text-gray-500 dark:text-gray-600 text-sm" data-i18n="footer.built">Gebouwd met Claude Code</span>
                 </div>
             </div>
         </div>
